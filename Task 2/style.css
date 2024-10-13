@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+.container{
+    text-align: center;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(3,120px);
+    grid-template-rows: repeat(3,120px);
+    gap:5px;
+    margin:25px auto;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    border: 3px solid #000;
+    font-size: 3rem;
+    cursor: pointer;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    background-color: black;
+    color: #fff;
+}
+#status{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #000;
+}
