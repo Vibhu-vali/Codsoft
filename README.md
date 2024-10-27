@@ -12,6 +12,7 @@ Papa.parse('movies.csv')
 This command will import the movies.csv file in the code and now we can run the project
 
 To run this project as it is:
+
 Step-1: Download the entire folder
 
 Step-2: Open the folder using a IDE
