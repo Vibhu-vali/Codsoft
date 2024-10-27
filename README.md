@@ -13,6 +13,9 @@ This command will import the movies.csv file in the code and now we can run the 
 
 To run this project as it is:
 Step-1: Download the entire folder
+
 Step-2: Open the folder using a IDE
+
 Step-3: Modify the code according to your preference if necessary 
+
 Step-4: Run index.html 
